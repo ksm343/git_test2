@@ -2,18 +2,9 @@ package git_test2;
 
 public class Hello {
 
-	String message;
+	String message = "ì•ˆë…•í•˜ì„¸ìš”";
 	
-	public Hello() {
-		this("¾È³çÇÏ¼¼¿ä");
+	public String say() {
+		return message;
 	}
-	
-	public Hello(String message) {
-		this.message = message;
-	}
-
-	public void say() {
-		System.out.println(message);
-	}
-
 }
